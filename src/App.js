@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import BaseMap from './components/BaseMap';
+import MapNodes from './components/MapNodes';
+import Scroller from './components/Scroller';
+import data from './data/data.json';
 
-function App() {
+const yearSlice = (date) => {
+  const { places } = data.find((y) => y.year === date) || {};
+  let res = [];
+  places.forEach((p) => {
+    const { coordinates, occupants } = p;
+    occupants.forEach((o) => res.push({ coordinates, ...o }));
+  });
+  return res;
+};
+
+const App = () => {
+  const [yearIndex, setYearIndex] = useState(0);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Scroller setActiveYear={setYearIndex}></Scroller>
+      <div
+        className="tooltip-wrapper"
+        style={{ position: 'fixed', width: '100vw', height: '100vh' }}>
+        <table />
+      </div>
+      <BaseMap>
+        <MapNodes data={yearSlice(data[yearIndex].year)} />
+      </BaseMap>
+    </>
   );
-}
+};
 
 export default App;
