@@ -15,13 +15,3 @@ export const H1 = styled.h1`
   line-height: 4.8rem;
   font-feature-settings: 'pnum' on, 'onum' on, 'cswh' off;
 `;
-
-export const Images = styled.div`
-  display: flex;
-  flex-direction: row;
-`;
-
-export const Image = styled.img`
-  width: 50%;
-  padding: 4px;
-`;

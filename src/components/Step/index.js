@@ -1,4 +1,4 @@
-import { Container, H1, Images, Image } from './styled';
+import { Container, H1 } from './styled';
 import { useInView } from 'react-intersection-observer';
 import React, { useEffect } from 'react';
 import imageIndex from '../../images';
