@@ -3,6 +3,8 @@ import { useInView } from 'react-intersection-observer';
 import React, { useEffect } from 'react';
 import imageIndex from '../../images';
 import ReactCompareImage from 'react-compare-image';
+import { ORANGE } from '../../constants/colors';
+import Handle from '../../images/handle.svg';
 
 const Step = ({ handleInView, heading, paragraphs, images }) => {
   const { ref, inView } = useInView();
@@ -20,9 +22,8 @@ const Step = ({ handleInView, heading, paragraphs, images }) => {
           rightImage={imageIndex[images[1].src]}
           hover
           sliderPositionPercentage={1}
-          // sliderLineColor="#F9BF3B"
-          sliderLineColor="black"
-          // handle={<React.Fragment />}
+          sliderLineColor={ORANGE}
+          handle={<img src={Handle} alt="Slider handle" />}
         />
       )}
       {paragraphs && paragraphs.map((p) => <p key={p}>{p}</p>)}

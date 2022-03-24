@@ -8,6 +8,7 @@ import {
   pointer,
 } from 'd3';
 import { projection } from '../../constants/constants.js';
+import { GREEN, ORANGE } from '../../constants/colors.js';
 import Tooltip from '../Tooltip/index.js';
 
 const MapNodes = ({ data }) => {
@@ -68,8 +69,8 @@ const MapNodes = ({ data }) => {
         (enter) =>
           enter
             .append('circle')
-            .attr('fill', '#F9BF3B')
-            .attr('stroke', '#2f4f4f')
+            .attr('fill', ORANGE)
+            .attr('stroke', GREEN)
             .call((enter) => enter.transition().attr('r', 4))
             .on('mouseover', onMouseover)
             .on('mousemove', onMousemove)
