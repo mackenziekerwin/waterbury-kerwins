@@ -1,0 +1,42 @@
+[
+  {
+    "label": "Waterbury Green",
+    "coordinates": [41.55643787226527, -73.0413591517529]
+  },
+  {
+    "label": "City Hall",
+    "coordinates": [41.554238061201836, -73.04368733614176]
+  },
+  {
+    "label": "Union Station",
+    "coordinates": [41.555244073134254, -73.04712269524755]
+  },
+  {
+    "label": "American Mills",
+    "coordinates": [41.54880241748913, -73.03558470381329]
+  },
+  {
+    "label": "Immaculate Conception Church",
+    "coordinates": [41.557024362859316, -73.04143125755716]
+  },
+  {
+    "label": "Riverside Cemetery",
+    "coordinates": [41.54812695810682, -73.04851759352962]
+  },
+  {
+    "label": "Waterbury Clock",
+    "coordinates": [41.558959923594095, -73.0344212326179]
+  },
+  {
+    "label": "Scoville Manufacturing",
+    "coordinates": [41.55231044095359, -73.03457184685456]
+  },
+  {
+    "label": "American Brass",
+    "coordinates": [41.556094864719725, -73.049187966854]
+  },
+  {
+    "label": "Hamilton Park",
+    "coordinates": [41.54405172583691, -73.01968995262078]
+  }
+]

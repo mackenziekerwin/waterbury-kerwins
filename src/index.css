@@ -28,3 +28,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pulse {
+  animation: pulse 2s ease infinite;
+}
+
+.touched {
+  animation: none;
+}
+
+@keyframes pulse {
+  0% {
+    stroke: rgba(249, 191, 59, 1);
+    stroke-width: 0;
+  }
+
+  100% {
+    stroke: rgba(249, 191, 59, 0);
+    stroke-width: 15;
+  }
+}

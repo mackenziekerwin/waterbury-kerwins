@@ -1,4 +1,4 @@
-const Tooltip = ({ name }) => {
+const Tooltip = ({ name, age, spouse, employer }) => {
   return `
       <thead>
         <tr>
@@ -8,16 +8,24 @@ const Tooltip = ({ name }) => {
       <tbody>
         <tr>
           <th>Age</th>
-          <td>27</td>
+          <td>${age}</td>
         </tr>
-        <tr>
-          <th>Spouse</th>
-          <td>Bridget Agnes Murphy</td>
-        </tr>
-        <tr>
-          <th>Employer</th>
-          <td>Waterbury Clock Company</td>
-        </tr>
+        ${
+          spouse
+            ? `<tr>
+                <th>Spouse</th>
+                <td>${spouse}</td>
+              </tr>`
+            : ''
+        }
+        ${
+          employer
+            ? `<tr>
+                <th>Employer</th>
+                <td>${employer}</td>
+              </tr>`
+            : ''
+        }
       </tbody>`;
 };
 

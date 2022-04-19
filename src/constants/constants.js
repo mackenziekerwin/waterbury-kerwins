@@ -4,8 +4,8 @@ const projectionWidth = 1280;
 const projectionHeight = 721;
 
 export const projection = geoMercator()
-  .center([-73.03292303164338, 41.55011127583599])
-  .scale(800000)
+  .center([-73.03627092863897, 41.549684775292924])
+  .scale(1100000)
   .translate([(projectionWidth * 2) / 3, projectionHeight / 2]);
 
 export const color = scaleOrdinal(schemeCategory10);

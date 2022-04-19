@@ -23,7 +23,7 @@ const MapNodes = ({ data }) => {
 
     const simulation = forceSimulation()
       .alphaTarget(0)
-      .force('collide', forceCollide(3.5))
+      .force('collide', forceCollide(4.5))
       .force(
         'x',
         forceX().x((d) => projection([d.coordinates[1], d.coordinates[0]])[0])
@@ -45,19 +45,21 @@ const MapNodes = ({ data }) => {
 
     const tooltip = select('.tooltip-wrapper').select('table');
 
-    const onMouseover = (_, d) =>
+    const onMouseover = (event, d) => {
+      select(event.currentTarget).classed('touched', true);
       tooltip
         .html(Tooltip(d))
-        .style('left', `${d.x}px`)
-        .style('top', `${d.y}px`)
+        .style('left', `${d.x + 10}px`)
+        .style('top', `${d.y + 15}px`)
         .style('opacity', 0)
         .transition()
         .duration(200)
         .style('opacity', 1);
+    };
 
     const onMousemove = (event) => {
       const [x, y] = pointer(event);
-      tooltip.style('left', `${x}px`).style('top', `${y}px`);
+      tooltip.style('left', `${x + 10}px`).style('top', `${y + 15}px`);
     };
 
     const onMouseout = () =>
@@ -71,7 +73,11 @@ const MapNodes = ({ data }) => {
             .append('circle')
             .attr('fill', ORANGE)
             .attr('stroke', GREEN)
-            .call((enter) => enter.transition().attr('r', 4))
+            .classed(
+              'pulse',
+              (d) => d.name === 'Margaret Kerwin' || d.name === 'John Lawlor'
+            )
+            .call((enter) => enter.transition().attr('r', 7))
             .on('mouseover', onMouseover)
             .on('mousemove', onMousemove)
             .on('mouseout', onMouseout),
@@ -82,6 +88,7 @@ const MapNodes = ({ data }) => {
     return () => {
       simulation.stop();
       onMouseout();
+      node.classed('pulse', false);
     };
   }, [data]);
 

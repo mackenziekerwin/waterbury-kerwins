@@ -15,3 +15,9 @@ export const H1 = styled.h1`
   line-height: 4.8rem;
   font-feature-settings: 'pnum' on, 'onum' on, 'cswh' off;
 `;
+
+export const Image = styled.img`
+  width: 100%;
+  // aspect-ratio: 16/9;
+  object-fit: cover;
+`;
