@@ -1,23 +1,27 @@
 [
-  { "heading": "From the Emerald Isle to the Brass City",
-    "paragraphs": [
-      "By the twentieth century, millions of Irish were forced to leave the ancient places of their surnames' origins due to centuries of political and economic upheavals."
-    ]
-  },
   { 
-    "heading": "1897",
+    "heading": "1896",
     "paragraphs": [
-      "Margaret Kerwin is the first of her siblings to leave Ireland. By 25, she's been in the United States for five years and married to Irish-born John Lawler for one year."
+      "Margaret Kerwin is the first of her siblings to leave Ireland. By 24, she's been in the United States for four years and just married to Irish-born John Lawlor."
     ]
   },
-  { "images": [
-    {
-      "src": "wbcco",
-      "alt": "A scanned photograph of a brick factory along a set of railroad tracks"
-    }
-  ],
+  {
+    "images": [
+      {
+        "src": "wbcco",
+        "alt": "A scanned photograph of a brick factory along a set of railroad tracks"
+      }
+    ],
     "paragraphs": [
       "A gritty industrial city of approximately 100,000, situated at the Naugatuck and Mad Rivers in central Connecticut, Waterbury had been the center of the American brass industry since the early 19th century."
+    ]
+  },
+  {
+    "images": [
+      {
+        "src": "map1899",
+        "alt": "A handdrawn map of the city in 1899."
+      }
     ]
   },
   { 
@@ -38,23 +42,55 @@
       "Margaret's home, built in 1885, is one of those packed immigrant households. Her modest 3-story home contains 500-square-foot floors in which she crams 5 children, her husband, and her sister."
     ]
   },
-  { "images": [
-    {
-      "src": "aabco1950s",
-      "alt": "A scanned photograph of a brick factory along a set of railroad tracks"
-    }
-  ],
+  { 
     "paragraphs": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     ]
   },
-  { "heading": "1907",
+  { 
     "paragraphs": [
-      "Michael Joseph Kerwin and his brother, John, emigrated from Queen’s County, Ireland, to New York, New York, in June 1907. They would end up in Waterbury, Connecticut, where their half-brother, Martin, had been living for the past six years.",
-      "The brothers noted that their purpose for emigration was to join Martin, who even paid for their passage."
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     ]
   },
-  { "heading": "Triple Deckers",
+  { 
+    "paragraphs": [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    ]
+  },
+  { 
+    "heading": "One in, one out",
+    "paragraphs": [
+      "In the same year that Margaret's family moves away to Philadelphia, the girls' brother James follows in from Ireland. He takes over the rented house with Katie."
+    ]
+  },
+  { 
+    "heading": "1906",
+    "paragraphs": [
+      "Katie moves out of the shared apartment when James marries Hannah Murphy."
+    ]
+  },
+  {
+    "heading": "1907",
+    "paragraphs": [
+      "As James and Hannah start their family, James's brother Martin moves into the city with his wife, Elizabeth Bergin, and their son, John Joseph.",
+      "Martin had been living in Naugatuck, a neighboring town, since his arrival in 1900. He married Elizabeth in 1903, and they had John in 1905."
+    ]
+  },
+  {
+    "heading": "1908",
+    "paragraphs": [
+      "Katie moves again, this time with her new husband, Thomas J. Byrne."
+    ]
+  },
+  {
+    "heading": "1909",
+    "paragraphs": [
+      "Martin John Kerwin, who had been living in neighboring Naugatuck since he arrived in the States in 1907, moves into the city, where he begins work at the Rogers & Brother silverware manufacturing company.",
+      "In the same year, his brother, Michael, moves into Waterbury as well, joined by his wife, Bridget Agnes Murphy, and their newborn, John Francis."
+    ]
+  },
+  {
+    "heading": "Triple Deckers",
     "paragraphs": [
       "Waterbury was a city of close-knit, ethnic neighborhoods, where many residents remained their entire lives. In 1928, Martin moved to a 3-story home on Pleasant St, where his children would raise their families as well."
     ]
@@ -69,27 +105,8 @@
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     ]
   },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { "heading": "1918",
+  {
+    "heading": "1918",
     "paragraphs": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     ]
@@ -124,7 +141,7 @@
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     ]
   },
-    { 
+  { 
     "paragraphs": [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     ]

@@ -19,7 +19,7 @@ const BaseMap = ({ children }) => {
       .join('text')
       .lower()
       .attr('font-family', 'franklin-gothic-urw')
-      .style('font-size', '14px')
+      .style('font-size', '13px')
       .style('font-style', 'italic')
       .style('max-width', '50')
       .attr('fill', '#FFFFFF')
