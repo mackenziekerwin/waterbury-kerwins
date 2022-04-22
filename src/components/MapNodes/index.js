@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import {
   select,
   forceSimulation,
@@ -9,10 +9,12 @@ import {
 } from 'd3';
 import { projection } from '../../constants/constants.js';
 import { GREEN, ORANGE } from '../../constants/colors.js';
-import Tooltip from '../Tooltip/index.js';
+import Tooltip from '../Tooltip';
 
 const MapNodes = ({ data }) => {
   const ref = useRef();
+  const [tooltipData, setTooltipData] = useState(null);
+  const [tooltipPos, setTooltipPos] = useState({});
 
   useEffect(() => {
     let node = select('g').selectAll('circle');
@@ -43,27 +45,19 @@ const MapNodes = ({ data }) => {
     simulation.nodes(nodes);
     simulation.alpha(1).restart();
 
-    const tooltip = select('#tooltip');
-
     const onMouseover = (event, d) => {
+      const { x, y } = d;
       select(event.currentTarget).classed('touched', true);
-      tooltip
-        .html(Tooltip(d))
-        .attr('x', `${d.x + 10}px`)
-        .attr('y', `${d.y + 15}px`)
-        .style('opacity', 0)
-        .transition()
-        .duration(200)
-        .style('opacity', 1);
+      setTooltipPos({ x, y });
+      setTooltipData(d);
     };
 
     const onMousemove = (event) => {
       const [x, y] = pointer(event);
-      tooltip.attr('x', `${x + 10}px`).attr('y', `${y + 15}px`);
+      setTooltipPos({ x, y });
     };
 
-    const onMouseout = () =>
-      tooltip.transition().duration(100).style('opacity', 0);
+    const onMouseout = () => setTooltipData(null);
 
     node = node
       .data(nodes, (d) => d.name)
@@ -95,9 +89,7 @@ const MapNodes = ({ data }) => {
   return (
     <>
       <g ref={ref}></g>
-      <foreignObject width="225px" height="110px" id="tooltip">
-        <table />
-      </foreignObject>
+      {tooltipData && <Tooltip data={tooltipData} pos={tooltipPos} />}
     </>
   );
 };

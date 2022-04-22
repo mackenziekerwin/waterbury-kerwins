@@ -9,22 +9,6 @@ body {
   background-color: #2f4f4f;
 }
 
-table {
-  position: absolute;
-  font-size: 12px;
-  border-collapse: collapse;
-  background-color: rgba(47, 79, 79, 0.85);
-  z-index: 100;
-}
-
-th,
-td {
-  padding: 4px 6px;
-  border: 0.5px solid #ffffff;
-  text-align: left;
-  vertical-align: top;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
