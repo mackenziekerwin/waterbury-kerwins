@@ -1,5 +1,6 @@
 const Tooltip = ({ name, age, spouse, employer }) => {
   return `
+  <table>
       <thead>
         <tr>
           <th colSpan="2">${name}</th>
@@ -26,7 +27,8 @@ const Tooltip = ({ name, age, spouse, employer }) => {
               </tr>`
             : ''
         }
-      </tbody>`;
+      </tbody>
+      </table>`;
 };
 
 export default Tooltip;

@@ -43,14 +43,14 @@ const MapNodes = ({ data }) => {
     simulation.nodes(nodes);
     simulation.alpha(1).restart();
 
-    const tooltip = select('.tooltip-wrapper').select('table');
+    const tooltip = select('#tooltip');
 
     const onMouseover = (event, d) => {
       select(event.currentTarget).classed('touched', true);
       tooltip
         .html(Tooltip(d))
-        .style('left', `${d.x + 10}px`)
-        .style('top', `${d.y + 15}px`)
+        .attr('x', `${d.x + 10}px`)
+        .attr('y', `${d.y + 15}px`)
         .style('opacity', 0)
         .transition()
         .duration(200)
@@ -59,7 +59,7 @@ const MapNodes = ({ data }) => {
 
     const onMousemove = (event) => {
       const [x, y] = pointer(event);
-      tooltip.style('left', `${x + 10}px`).style('top', `${y + 15}px`);
+      tooltip.attr('x', `${x + 10}px`).attr('y', `${y + 15}px`);
     };
 
     const onMouseout = () =>
@@ -92,7 +92,14 @@ const MapNodes = ({ data }) => {
     };
   }, [data]);
 
-  return <g ref={ref}></g>;
+  return (
+    <>
+      <g ref={ref}></g>
+      <foreignObject width="225px" height="110px" id="tooltip">
+        <table />
+      </foreignObject>
+    </>
+  );
 };
 
 export default MapNodes;
