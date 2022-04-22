@@ -2,13 +2,14 @@ import { useEffect, useRef } from 'react';
 import { select, geoPath } from 'd3';
 import waterbury from '../../data/waterbury.json';
 import labels from '../../data/labels.json';
-import { projection } from '../../constants/constants.js';
 import { StyledSVG } from './styled';
-
-const path = geoPath().projection(projection);
+import useProjection from '../../hooks/useProjection';
 
 const BaseMap = ({ children }) => {
   const svgRef = useRef();
+  const projection = useProjection()();
+
+  const path = geoPath().projection(projection);
 
   useEffect(() => {
     const svg = select('svg');
@@ -31,15 +32,20 @@ const BaseMap = ({ children }) => {
       .text((d) => d.label);
 
     svg
-      .append('path')
+      .select('path')
       .lower()
       .attr('fill', 'none')
       .attr('d', path(waterbury))
       .attr('stroke', '#fff')
       .attr('stroke-width', 0.25);
-  }, []);
+  }, [path, projection]);
 
-  return <StyledSVG ref={svgRef}>{children}</StyledSVG>;
+  return (
+    <StyledSVG ref={svgRef}>
+      <path />
+      {children}
+    </StyledSVG>
+  );
 };
 
 export default BaseMap;

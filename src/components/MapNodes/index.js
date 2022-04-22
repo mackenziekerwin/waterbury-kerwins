@@ -7,16 +7,21 @@ import {
   forceY,
   pointer,
 } from 'd3';
-import { projection } from '../../constants/constants.js';
 import { GREEN, ORANGE } from '../../constants/colors.js';
 import Tooltip from '../Tooltip';
+import useProjection from '../../hooks/useProjection';
 
 const MapNodes = ({ data }) => {
   const ref = useRef();
-  const [tooltipData, setTooltipData] = useState(null);
+
+  const generateProjection = useProjection();
+
+  const [tooltipData, setTooltipData] = useState();
   const [tooltipPos, setTooltipPos] = useState({});
 
   useEffect(() => {
+    const projection = generateProjection();
+
     let node = select('g').selectAll('circle');
 
     const ticked = () => {
@@ -84,7 +89,7 @@ const MapNodes = ({ data }) => {
       onMouseout();
       node.classed('pulse', false);
     };
-  }, [data]);
+  }, [data, generateProjection]);
 
   return (
     <>
