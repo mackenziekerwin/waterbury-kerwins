@@ -42,9 +42,15 @@
       "Margaret's home, built in 1885, is one of those packed immigrant households. Her modest 3-story home contains 500-square-foot floors in which she crams 5 children, her husband, and her sister."
     ]
   },
-  { 
+  {
+    "images": [
+      {
+        "src": "church",
+        "alt": "A small church with a single steeple."
+      }
+    ],
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "The Kerwins are members of the Church of Immaculate Conception. The church, dedicated in 1857, was the first church in Waterbury built specifically to be a Catholic church."
     ]
   },
   { 
@@ -58,9 +64,9 @@
     ]
   },
   { 
-    "heading": "One in, one out",
+    "heading": "1905",
     "paragraphs": [
-      "In the same year that Margaret's family moves away to Philadelphia, the girls' brother James follows in from Ireland. He takes over the rented house with Katie."
+      "In the same year that Margaret's family moves away to Philadelphia, her younger brother James follows in from Ireland. He takes over the rented house with Katie."
     ]
   },
   { 
@@ -85,35 +91,55 @@
   {
     "heading": "1909",
     "paragraphs": [
-      "Martin John Kerwin, who had been living in neighboring Naugatuck since he arrived in the States in 1907, moves into the city, where he begins work at the Rogers & Brother silverware manufacturing company.",
-      "In the same year, his brother, Michael, moves into Waterbury as well, joined by his wife, Bridget Agnes Murphy, and their newborn, John Francis."
+      "As brothers Martin and James continue to grow their families, their brother Michael finally catches up to them in Waterbury. Michael and his wife, Bridget Agnes Murphy, have a newborn named John Francis.",
+      "Newlyweds Katie and Thomas move to Detroit, Michigan."
     ]
   },
   {
-    "heading": "Triple Deckers",
+    "heading": "Brass Mills",
+    "images": [
+      {
+        "src": "wtbyBrassMills",
+        "alt": "A faded photograph of a water-powered mill made up of large wooden wheels."
+      }
+    ],
     "paragraphs": [
-      "Waterbury was a city of close-knit, ethnic neighborhoods, where many residents remained their entire lives. In 1928, Martin moved to a 3-story home on Pleasant St, where his children would raise their families as well."
+      "Many Irish immigrants found work in the manufacturing industry, which, by the early 20th century, was quickly gaining momentum. In particular, the brass industry in Waterbury began in the mid-18th century and provided an alternative for people struggling to make a living off the rocky, exhausted soil."
+      ]
+  },
+  { 
+    "images": [
+      {
+        "src": "wtbyBrass",
+        "alt": "An old photo of a brass factory on a grass hill."
+      }
+    ],
+    "paragraphs": [
+      "The Waterbury Brass Company at the turn of the 20th century."
     ]
   },
   { 
+    "heading": "Humble Beginnings",
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Waterbury's first generation of brass manufacturers did not set out to create a brass industry. Their initial goal was to produce buttons and clocks to be sold by peddlers as an alternative to farming, which was a limited success in Waterbury."
     ]
   },
   {
-    "heading": "1918",
+    "images": [
+      {
+        "src": "clocks",
+        "alt": "A vintage catalogue of products by Waterbury Clock Company."
+      }
+    ],
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Factories were churning out all kinds of metal products, including silverware, metal hoses, buttons, clocks, and watches."
     ]
   },
-    { 
+    {
+    "heading": "Godparents", 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Sometime between 1913 and 1916, James's wife, Hannah, dies unexpectedly. It's unclear what happens to James.",
+      "Their children get separated. Jeremiah stays in Connecticut, and Anne gets unofficially adopted by Katie and Thomas in Detroit."
     ]
   },
   { 
