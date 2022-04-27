@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { min } from '../../constants/breakpoints';
 import { WHITE } from '../../constants/colors';
 import { H1 } from '../Step/styled';
 
@@ -27,12 +28,16 @@ export const Title = styled(H1)`
 `;
 
 export const Body = styled.div`
-  display: flex;
+  ${min.tablet} {
+    display: flex;
+  }
 `;
 
 export const Column = styled.p`
-  &:not(:last-of-type) {
-    margin-right: 2rem;
+  ${min.tablet} {
+    &:not(:last-of-type) {
+      margin-right: 2rem;
+    }
+    width: 25%;
   }
-  width: 25%;
 `;

@@ -22,7 +22,6 @@ const BaseMap = ({ children }) => {
       .attr('font-family', 'franklin-gothic-urw')
       .style('font-size', '13px')
       .style('font-style', 'italic')
-      .style('max-width', '50')
       .attr('fill', '#FFFFFF')
       .attr('opacity', '0.5')
       .attr('x', (d) => projection([d.coordinates[1], d.coordinates[0]])[0])

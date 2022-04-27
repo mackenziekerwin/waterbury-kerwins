@@ -23,15 +23,6 @@ const App = () => {
       <Scroller setActiveYear={setYearIndex}>
         <Cover />
       </Scroller>
-      <div
-        className="tooltip-wrapper"
-        // todo: style this
-        style={{ position: 'fixed', width: '100vw', height: '100vh' }}>
-        <p style={{ position: 'absolute', top: '0', right: '0' }}>
-          {years[yearIndex]}
-        </p>
-        <table />
-      </div>
       <BaseMap>
         <MapNodes data={yearSlice(years[yearIndex])} />
       </BaseMap>
