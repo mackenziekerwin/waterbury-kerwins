@@ -5,6 +5,9 @@ import Church from './immaculate-conception.jpeg';
 import WtbyBrass from './wtby-brass.jpeg';
 import WtbyBrassMills from './wtby-brass-mills.jpg';
 import Clocks from './clocks.jpeg';
+import Rally from './1918-patriotic-rally.jpg';
+import Scovill from './scovill.jpeg';
+import ScovillOffice from './scovill-office.jpeg';
 
 const images = {
   wbcco: WCCo1800s,
@@ -14,6 +17,9 @@ const images = {
   wtbyBrass: WtbyBrass,
   wtbyBrassMills: WtbyBrassMills,
   clocks: Clocks,
+  rally: Rally,
+  scovill: Scovill,
+  scovillOffice: ScovillOffice,
 };
 
 export default images;

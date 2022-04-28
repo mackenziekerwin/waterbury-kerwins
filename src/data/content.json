@@ -9,7 +9,8 @@
     "images": [
       {
         "src": "wbcco",
-        "alt": "A scanned photograph of a brick factory along a set of railroad tracks"
+        "alt": "A scanned photograph of a brick factory along a set of railroad tracks",
+        "caption": "Homer F. Basset, Waterbury and her Industries, 1889."
       }
     ],
     "paragraphs": [
@@ -20,7 +21,8 @@
     "images": [
       {
         "src": "map1899",
-        "alt": "A handdrawn map of the city in 1899."
+        "alt": "A handdrawn map of the city in 1899.",
+        "caption": "Landis and Hughes Map of Waterbury, 1899. Library of Congress."
       }
     ]
   },
@@ -46,11 +48,12 @@
     "images": [
       {
         "src": "church",
-        "alt": "A small church with a single steeple."
+        "alt": "A small church with a single steeple.",
+        "caption": "Homer F. Basset, Waterbury and her Industries, 1889."
       }
     ],
     "paragraphs": [
-      "The Kerwins are members of the Church of Immaculate Conception. The church, dedicated in 1857, was the first church in Waterbury built specifically to be a Catholic church."
+      "The Kerwins are members of the Church of Immaculate Conception. The church, dedicated in 1857, was the first in Waterbury built specifically to be a Catholic church."
     ]
   },
   { 
@@ -100,22 +103,24 @@
     "images": [
       {
         "src": "wtbyBrassMills",
-        "alt": "A faded photograph of a water-powered mill made up of large wooden wheels."
+        "alt": "Large wooden waterwheels among remains of stone buildings surrounded by large trees.",
+        "caption": "Original waterwheels, Waterbury Brass Company, ca. 1910. University of Connecticut Libraries."
       }
     ],
     "paragraphs": [
       "Many Irish immigrants found work in the manufacturing industry, which, by the early 20th century, was quickly gaining momentum. In particular, the brass industry in Waterbury began in the mid-18th century and provided an alternative for people struggling to make a living off the rocky, exhausted soil."
-      ]
+    ]
   },
   { 
     "images": [
       {
         "src": "wtbyBrass",
-        "alt": "An old photo of a brass factory on a grass hill."
+        "alt": "An old photo of a brass factory on a grass hill.",
+        "caption": "Homer F. Basset, Waterbury and her Industries, 1889."
       }
     ],
     "paragraphs": [
-      "The Waterbury Brass Company at the turn of the 20th century."
+      "When Michael got his first job in Watebury at the Waterbury Brass Company, it sat humbly on a grass hill."
     ]
   },
   { 
@@ -138,8 +143,50 @@
     {
     "heading": "Godparents", 
     "paragraphs": [
-      "Sometime between 1913 and 1916, James's wife, Hannah, dies unexpectedly. It's unclear what happens to James.",
-      "Their children get separated. Jeremiah stays in Connecticut, and Anne gets unofficially adopted by Katie and Thomas in Detroit."
+      "Sometime between 1913 and 1916, James and Hannah die unexpectedly. The cause of death is unclear.",
+      "Their children get separated. Jeremiah goes on to live with Hannah's sister in Connecticut, and Anne gets unofficially adopted by Katie and Thomas in Detroit."
+    ]
+  },
+  { 
+    "heading": "World War I",
+    "paragraphs": [
+      "While Waterbury's brass industry had been established in the 19th century and steadily growing ever since, World War I was the catalyst for the city's industrial ramp-up.",
+      "Scovill Manufacturing Company, like many others in Waterbury at the time, was a button manufacturer, but, during the war, became a top manufacturer of brass shells and time fuses to supply to American forces."
+    ]
+  },
+  { 
+    "images": [
+      {
+        "src": "rally",
+        "caption": "Archives & Special Collections at the Thomas J. Dodd Research Center, University of Connecticut Libraries.",
+        "alt": "Large crowd of workers listening to man standing on platform. Stone buildings in background, one with awnings. Other buildings and gated plant entrance shown."
+      }
+    ],
+    "paragraphs": [
+      "During the war, laborers often attended patriotic rallies, like this one at the Coe Manufacturing Company in Torrington. Coe Manufacturing was owned by American Brass, one of the leading brass manufacturers of the 20th century."
+    ]
+  },
+  { 
+    "heading": "Scovill",
+    "images": [
+      {
+        "src": "scovill",
+        "alt": "An aerial view of a factory with smokestacks and residential area surrounding."
+      }
+    ],
+    "paragraphs": [
+      "Scovill Manufacturing was another leading company, whose large slew of factories sat along the Mad River in central Waterbury."
+    ]
+  },
+  { 
+    "images": [
+      {
+        "src": "scovillOffice",
+        "alt": ""
+      }
+    ],
+    "paragraphs": [
+      "Today, all that remain of the company are the abandoned office buildings. The mills have been replaced by retail buildings, restaurants, and a large parking lot that covers a portion of the Mad River."
     ]
   },
   { 
@@ -158,28 +205,10 @@
     ]
   },
   { 
+    "heading": "1924",
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "By the mid-1920s, over 20 years have passed since the first generation of Kerwin brothers—Martin, Michael, and the late James—arrived in Waterbury. By now, their sons are becoming old enough to join them in the brass mills.",
+      "Martin's eldest son, John Joseph, is the first of his generation to begin work. At 19, he starts his first job at the American Brass Company."
     ]
   },
   { 

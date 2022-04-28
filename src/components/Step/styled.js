@@ -21,3 +21,7 @@ export const Image = styled.img`
   // aspect-ratio: 16/9;
   object-fit: cover;
 `;
+
+export const Caption = styled.p`
+  font-size: 12px;
+`;

@@ -26,6 +26,7 @@ const App = () => {
       <BaseMap>
         <MapNodes data={yearSlice(years[yearIndex])} />
       </BaseMap>
+      <div id="year">{years[yearIndex]}</div>
     </>
   );
 };
