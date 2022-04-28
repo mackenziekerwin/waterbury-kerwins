@@ -29,8 +29,7 @@
   { 
     "heading": "1900",
     "paragraphs": [
-      "Margaret's younger sister, Katie, moves in with her family. A single 23-year-old, Katie starts a job at American Mills.",
-      "It's not uncommon for immigrants to follow their families into the United States, putting down roots in small neighborhoods resembling their close-knit communities back home."
+      "Margaret's younger sister, Katie, moves in with her family. It's not uncommon for immigrants to follow their families into the United States, putting down roots in small neighborhoods resembling their close-knit communities back home."
     ]
   },
   { 
@@ -57,13 +56,14 @@
     ]
   },
   { 
+    "heading": "Yankees and Catholics",
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Irish Catholics are known to feud with Yankee Protestants, who own all of the manufacturing companies in the Naugatuck Valley. As a form of resistance, Irish laborers often steal company property from the factories in which they work."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Regardless, the Waterbury Irish find comfort in their small communities, carrying out traditions of their past with families and friends."
     ]
   },
   { 
@@ -144,7 +144,7 @@
     "heading": "Godparents", 
     "paragraphs": [
       "Sometime between 1913 and 1916, James and Hannah die unexpectedly. The cause of death is unclear.",
-      "Their children get separated. Jeremiah goes on to live with Hannah's sister in Connecticut, and Anne gets unofficially adopted by Katie and Thomas in Detroit."
+      "Their children get separated. Jeremiah stays in Connecticut with Hannah's sister, and Anne gets unofficially adopted by Katie and Thomas in Detroit."
     ]
   },
   { 
@@ -167,7 +167,7 @@
     ]
   },
   { 
-    "heading": "Scovill",
+    "heading": "Scovill Manufacturing",
     "images": [
       {
         "src": "scovill",
@@ -191,17 +191,24 @@
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Waterbury gradually becomes a metropolis full of shops, theaters, restaurants, and a constant hum factory production.",
+      "Responsible for nearly all of America's brass production, the city thrives, and some residents compare it to a \"miniature Times Square.\""
+    ]
+  },
+  { 
+    "images": [
+      {
+        "src": "street",
+        "alt": ""
+      }
+    ],
+    "paragraphs": [
+      "Few residents rely on cars, meaning families who work have to live close to downtown to be able to walk to their jobs. Extended families end up living in close proximity to one another, working in various factories throughout the area."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "The Waterbury Irish are able to maintain the close-knit cultures of their villages back in Ireland. With only a few blocks between them, households gather together every weekend for family meals."
     ]
   },
   { 
@@ -212,78 +219,178 @@
     ]
   },
   { 
+    "heading": "American Brass Company",
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "The American Brass company was one of the largest brass manufacturers in the country and one of the \"Big Three\" manufacturers in Waterbury."
+    ]
+  },
+  { 
+    "images": [
+      {
+        "src": "abcoPostcard",
+        "alt": ""
+      }
+    ],
+    "paragraphs": [
+      "With branches along the Naugatuck river, both north and south of the cemetry, American Brass was responsible for two-thirds of brass and one-third of copper production in the US."
+    ]
+  },
+  { 
+    "images": [
+      {
+        "src": "abcoAbandoned",
+        "alt": ""
+      }
+    ],
+    "paragraphs": [
+      "Today, most of the mills are either abandoned or destroyed. One of its buildings sufferred a fire in 2018, marking the true death of a once-booming business."
+    ]
+  },
+  { 
+    "heading": "Waterbury Clock Company",
+    "paragraphs": [
+      "In addition to brass, Waterbury is known for its watches, with Waterbury Clock Company as its leading manufacturer of watch and clock products."
+    ]
+  },
+  { 
+    "images": [
+      {
+        "src": "wcco",
+        "alt": ""
+      }
+    ],
+    "paragraphs": [
+      "Just five minutes from its complex on Cherry Ave, Michael begins a long and loyal period of employment for Waterbury Clock Company in 1928."
+    ]
+  },
+  { 
+    "images": [
+      {
+        "src": "wccoOffice",
+        "alt": ""
+      }
+    ],
+    "paragraphs": [
+      "Lively scenes of the office building, featuring its bright red awnings, are often depicted on postcards."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Now known as the Timex Group, Waterbury Clock Company is one of Waterbury's only manufacturing companies from the 19th century that is still alive today, making it one of Waterbury's most successful businesses."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Though its complex on Cherry Ave is no longer used for manufacturing, the company continues to manufacture watches and even offers a collection honoring its roots in Waterbury."
     ]
   },
-    { 
+  { 
+    "images": [
+      {
+        "src": "wccoNow",
+        "alt": ""
+      }
+    ],
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Broken windows and graffiti decorate the abandoned office building."
+    ]
+  },
+  { 
+    "heading": "1936",
+    "paragraphs": [
+      "Michael and Bridget become empty nesters as John Francis marries Mary Wallace and Rita marries John Madden.",
+      "A few minutes south, Martin John's household squeezes in three generations of Kerwins with the arrival of Martin Pierce's son, Donald, and daughter, Elizabeth."
+    ]
+  },
+  { 
+    "images": [
+      {
+        "src": "pleasant31",
+        "alt": ""
+      }
+    ],
+    "paragraphs": [
+      "Martin J. owns the two-story building and rents out one of the units to Martin P. and his family. While Martin P. is the head of his new household, his younger brothers Daniel and Louis continue to live as bachelors with their parents."
+    ]
+  },
+  { 
+    "heading": "World War II",
+    "paragraphs": [
+      "Waterbury's employment in the brass industry hits a peak of about 20,000 as America begins to gear up for World War II, and local factories retool for war production.",
+      "Manufacturers such as Anaconda American Brass Company, the Scovill Manufacturing Company, and Chase Brass and Copper convert their operations from brass production to manufacturing cartridge clips, shell cases and time fuses for bombs. The Waterbury Clock Company also retools to make munitions such as mechanical time fuses for bombs and gun sight units for airplanes."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Along with many other immigrants in the Naugatuck Valley, the Kerwins assist the war effort at home, continuing to work in such factories to supply goods to American forces.",
+      "Daniel Kerwin serves in the US Army from 1941 to 1945."
+    ]
+  },
+  { 
+    "images": [
+      {
+        "src": "workers",
+        "alt": "",
+        "caption": "Archives & Special Collections at the Thomas J. Dodd Research Center, University of Connecticut Libraries."
+      }
+    ],
+    "paragraphs": [
+      "Immigrants and their children, who make up a majority of the workforce, are crucial to the boom in war production. Waterbury is made up of Irish, Italian, German, and Polish communities, all of whom become dedicated and skilled workers.",
+      "The Brass City develops a reputation for \"zero tolerance\"—incredible precision, down to a ten thousandth of an inch."
+    ]
+  },
+  { 
+    "heading": "1950s",
+    "paragraphs": [
+      "A 75-year-old widower, Martin John dies in 1950. He had worked in Waterbury's industries for over 35 years."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "With Michael's retirement, the first generation of Kerwins to live in the United States is officially out of work. Their children, now with their own children, continue to labor in the factories, but the industry isn't what it once was."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "The end of the war spells the beginning of a sharp decline of Waterbury's manufacturing base. Employment is nowhere near its peak of 20,000."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "By the mid-1950's, Watebury's motto, \"Quid aere perennius?\" (\"What is more lasting than brass?\") begins to lose its shine, as materials like plastic, aluminum, and zinc, replace brass in household products."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-    { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "As plenty of surrounding mills start closing down, the Brass City witnesses the end of an era, and the Kerwins are lucky to have jobs within the larger corporations."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Compounded by the rise of national corporations, Waterbury suffers as part of a mono-industrial region. Brass industry employees struggle to compete with cheap labor overseas."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "Regardless, Michael and Martin's children—John Francis, Martin Pierce, Daniel Vincent, and Louis Patrick—remain content with their families in Waterbury, which has been so good to them for so long."
+    ]
+  },
+  { 
+    "heading": "1964",
+    "paragraphs": [
+      "They remain in the Brass City for decades, eventually fizzling out over generations, but this visualization ends with the death of Michael Kerwin—the great-great-grandfather of the creator of this project."
+    ]
+  },
+  { 
+    "heading": "Acknowledgements",
+    "paragraphs": [
+      "Special thanks to Sandra Duffy for her genealogical research contributions.",
+      "The research presented in this visualization is not official geneological work and may contain errors."
     ]
   },
   { 
     "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    ]
-  },
-  { 
-    "paragraphs": [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "MacKenzie Kerwin, 2022."
     ]
   }
 ]

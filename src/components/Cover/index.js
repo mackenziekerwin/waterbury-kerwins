@@ -16,7 +16,6 @@ const Cover = () => (
         who chose to make the Brass City their permanent home.
       </Column>
     </Body>
-    <Body>MacKenzie Kerwin, 2022</Body>
   </Container>
 );
 

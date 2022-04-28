@@ -16,7 +16,7 @@
     "coordinates": [41.54880241748913, -73.03558470381329]
   },
   {
-    "label": "Immaculate Conception Church",
+    "label": "Immaculate Conception",
     "coordinates": [41.557024362859316, -73.04143125755716]
   },
   {
@@ -28,7 +28,7 @@
     "coordinates": [41.558959923594095, -73.0344212326179]
   },
   {
-    "label": "Scoville Manufacturing",
+    "label": "Scovill",
     "coordinates": [41.55231044095359, -73.03457184685456]
   },
   {
@@ -38,5 +38,9 @@
   {
     "label": "Hamilton Park",
     "coordinates": [41.54405172583691, -73.01968995262078]
+  },
+  {
+    "label": "Rogers & Brother",
+    "coordinates": [41.54660765182847, -73.02137415075342]
   }
 ]
