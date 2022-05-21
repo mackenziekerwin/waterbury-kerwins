@@ -2,7 +2,7 @@ import { Container, Title, Body, Column } from './styled';
 
 const Cover = () => (
   <Container>
-    <Title>Waterbury Irish</Title>
+    <Title>Waterbury Kerwins</Title>
     <Body>
       <Column>
         From the mid-nineteenth century on, the Irish steadily found work and a
