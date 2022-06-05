@@ -1,9 +1,9 @@
 import { Container, H1, Image, Caption } from './styled';
 import { useInView } from 'react-intersection-observer';
 import React, { useEffect } from 'react';
-import imageIndex from '../../images';
+import { PrismicRichText } from '@prismicio/react';
 
-const Step = ({ handleInView, heading, paragraphs, images }) => {
+const Step = ({ handleInView, heading, paragraphs, image, caption }) => {
   const { ref, inView } = useInView();
 
   useEffect(() => {
@@ -12,15 +12,22 @@ const Step = ({ handleInView, heading, paragraphs, images }) => {
 
   return (
     <Container ref={ref}>
-      {heading && <H1>{heading}</H1>}
-      {images &&
-        images.map((image, i) => (
-          <div key={i}>
-            <Image src={imageIndex[image.src]} alt={image.alt} />
-            {image.caption && <Caption>{image.caption}</Caption>}
-          </div>
-        ))}
-      {paragraphs && paragraphs.map((p) => <p key={p}>{p}</p>)}
+      <PrismicRichText
+        field={heading}
+        components={{ heading1: ({ children }) => <H1>{children}</H1> }}
+      />
+      {image.url && (
+        <>
+          <Image src={image.url} alt={image.alt} />
+          <PrismicRichText
+            field={caption}
+            components={{
+              paragraph: ({ children }) => <Caption>{children}</Caption>,
+            }}
+          />
+        </>
+      )}
+      <PrismicRichText field={paragraphs} />
     </Container>
   );
 };

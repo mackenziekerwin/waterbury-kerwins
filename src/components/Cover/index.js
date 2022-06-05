@@ -1,20 +1,16 @@
 import { Container, Title, Body, Column } from './styled';
+import { PrismicRichText } from '@prismicio/react';
 
-const Cover = () => (
+const Cover = ({ title, introduction }) => (
   <Container>
-    <Title>Waterbury Kerwins</Title>
+    <Title>{title}</Title>
     <Body>
-      <Column>
-        From the mid-nineteenth century on, the Irish steadily found work and a
-        growing support system in Waterbury, Connecticut. Through grace and
-        grit, they helped to shape the industry and culture, create a Brass
-        City, and bring it into the modern era.
-      </Column>
-      <Column>
-        This project follows the Kerwin family line through its rooting in
-        Waterbury, Connecticut, and particularly focuses on those individuals
-        who chose to make the Brass City their permanent home.
-      </Column>
+      <PrismicRichText
+        field={introduction}
+        components={{
+          paragraph: ({ children }) => <Column>{children}</Column>,
+        }}
+      />
     </Body>
   </Container>
 );
