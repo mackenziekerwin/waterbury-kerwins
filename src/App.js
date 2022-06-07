@@ -10,18 +10,8 @@ const yearSlice = (date) => {
   return data.filter((y) => y.year === date);
 };
 
-const years = data
-  .reduce((acc, currYear) => {
-    if (!acc.includes(currYear.year)) {
-      acc.push(currYear.year);
-    }
-    return acc;
-  }, [])
-  .splice(0, 49)
-  .concat([1965, 1966]);
-
 const App = () => {
-  const [yearIndex, setYearIndex] = useState(0);
+  const [year, setYear] = useState(0);
   const [document] = useSinglePrismicDocument('homepage');
 
   if (!document) return null;
@@ -37,14 +27,11 @@ const App = () => {
 
   return (
     <>
-      <Scroller
-        setActiveYear={setYearIndex}
-        events={events}
-        appendix={appendix}>
+      <Scroller setActiveYear={setYear} events={events} appendix={appendix}>
         <Cover title={title} introduction={introduction} />
       </Scroller>
       <BaseMap>
-        <MapNodes data={yearSlice(years[yearIndex])} />
+        <MapNodes data={yearSlice(year)} />
       </BaseMap>
     </>
   );

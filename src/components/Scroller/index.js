@@ -8,7 +8,7 @@ const Scroller = ({ setActiveYear, events, appendix, children }) => (
       <Step
         key={i}
         handleInView={(inView) => {
-          inView && setActiveYear(i);
+          inView && setActiveYear(e.year || 0);
         }}
         heading={e.heading}
         paragraphs={e.paragraphs || e.text}

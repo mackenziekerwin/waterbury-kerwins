@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { WHITE } from '../../constants/colors';
 
 export const Container = styled.div`
   height: 100vh;
@@ -19,17 +18,9 @@ export const H1 = styled.h1`
 
 export const Image = styled.img`
   width: 100%;
-  // aspect-ratio: 16/9;
   object-fit: cover;
 `;
 
 export const Caption = styled.p`
   font-size: 12px;
-  a {
-    color: ${WHITE};
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 `;

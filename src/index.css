@@ -9,18 +9,6 @@ body {
   background-color: #2f4f4f;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-#year {
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 5;
-}
-
 .pulse {
   animation: pulse 2s ease infinite;
 }
@@ -39,4 +27,14 @@ code {
     stroke: rgba(249, 191, 59, 0);
     stroke-width: 15;
   }
+}
+
+a {
+  color: #FFFFFF;
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+}
+
+a:hover {
+  text-decoration: none;
 }

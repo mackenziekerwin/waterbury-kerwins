@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 import { PrismicRichText } from '@prismicio/react';
 
 const Step = ({ handleInView, heading, paragraphs, image, caption }) => {
-  const { ref, inView } = useInView();
+  const { ref, inView } = useInView({ threshold: 0.75 });
 
   useEffect(() => {
     handleInView(inView);
