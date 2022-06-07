@@ -29,14 +29,15 @@ export const Title = styled(H1)`
 
 export const Body = styled.div`
   ${min.tablet} {
-    column-count: 2;
-    column-gap: 1.75rem;
-    width: 50rem;
+    display: flex;
   }
 `;
 
 export const Column = styled.p`
   ${min.tablet} {
-    display: inline-block;
+    width: 33%;
+    &:not(:last-of-type) {
+      margin-right: 1.75rem;
+    }
   }
 `;
